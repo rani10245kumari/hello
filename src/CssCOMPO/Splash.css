@@ -1,0 +1,90 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    animation: fadeInDown 2s ease-in-out;
+}
+
+.chatbot-img {
+
+    height: 80vh;
+    margin-bottom: 20px;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*------------------container2-------------*/
+.container2 {
+    border: 2px solid blue;
+    height: 90vh;
+    width: 26vw;
+}
+
+.container2 h3 {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    width: 90%;
+}
+
+.message {
+    height: 32vh;
+    width: 100%;
+}
+
+.btn {
+    padding: 16px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    width: 20vw;
+    left: 40%;
+    top: 75vh;
+}
+
+.btn:hover {
+    background-color: #0658b1;
+}
