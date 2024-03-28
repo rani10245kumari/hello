@@ -1,0 +1,56 @@
+.head {
+    background-color: blue;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 7vh;
+}
+
+.instruction {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    position: absolute;
+    top: 25vh;
+    left: 45%;
+}
+
+.listing {
+    position: absolute;
+    left: 5%;
+    top: 40vh;
+    line-height: 1.9;
+}
+
+.no {
+    font-weight: bold;
+
+}
+
+.wish {
+    font-style: italic;
+    font-size: 28px;
+    position: absolute;
+    top: 70vh;
+    left: 5%;
+}
+
+.butn {
+    padding: 16px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    width: 20vw;
+    left: 40%;
+    top: 85vh;
+}
+
+.butn:hover {
+    background-color: #0658b1;
+}
